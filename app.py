@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model and features list
-with open('C:/Users/sicel/OneDrive/Documents/Python/machine_learning/student/student_model.pkl', 'rb') as model_file:
+with open('student_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 
